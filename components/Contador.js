@@ -11,8 +11,8 @@ const Contador = ({ numClics }) => {
 
 const estilos = StyleSheet.create({
   cajaContador: {
-    width: 200, // un poco más angosto
-    height: 250, // alto para que se vea tipo vertical
+    width: 200, 
+    height: 250, 
     borderWidth: 2,
     borderColor: 'white',
     borderRadius: 5,
@@ -21,7 +21,7 @@ const estilos = StyleSheet.create({
     alignItems: 'center',
   },
   numeroGrande: {
-    fontSize: 150, // bien grande para que resalte
+    fontSize: 150, 
     fontWeight: 'bold',
     color: 'white',
     textAlign: 'center',
